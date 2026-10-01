@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="54" y1="5" x2="1160" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#090D1A"/>
+      <stop offset=".55" stop-color="#11132A"/>
+      <stop offset="1" stop-color="#071922"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="198" y1="90" x2="1007" y2="266" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA"/>
+      <stop offset=".5" stop-color="#67E8F9"/>
+      <stop offset="1" stop-color="#5EEAD4"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="0" cy="0" r="1" gradientTransform="matrix(0 180 -225 0 1010 12)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity=".19"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#A5B4FC" stroke-opacity=".08"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="340" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="24" fill="url(#grid)"/>
+  <rect width="1200" height="340" rx="24" fill="url(#orb)"/>
+  <rect x="1" y="1" width="1198" height="338" rx="23" stroke="#A5B4FC" stroke-opacity=".25"/>
+  <circle cx="32" cy="32" r="5" fill="#FB7185"/>
+  <circle cx="52" cy="32" r="5" fill="#FBBF24"/>
+  <circle cx="72" cy="32" r="5" fill="#34D399"/>
+  <text x="96" y="37" fill="#94A3B8" font-family="monospace" font-size="13">brigid@github ~ /profile</text>
+  <path d="M813 92h57v57h-57zM870 149h57v57h-57zM927 92h57v57h-57z" stroke="url(#glow)" stroke-opacity=".32" stroke-width="2"/>
+  <path d="m841 120 14 14-14 14m42 15 14 14-14 14m42-57 14 14-14 14" stroke="url(#glow)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="1053" cy="180" r="76" stroke="#67E8F9" stroke-opacity=".14"/>
+  <circle cx="1053" cy="180" r="58" stroke="#A78BFA" stroke-opacity=".18" stroke-dasharray="4 8"/>
+  <circle cx="1053" cy="180" r="6" fill="#67E8F9"/>
+  <text x="80" y="126" fill="#A78BFA" font-family="monospace" font-size="17">&gt; hello_world</text>
+  <text x="78" y="197" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">I’m Brigid<tspan fill="#67E8F9">.</tspan></text>
+  <text x="82" y="237" fill="#C4B5FD" font-family="monospace" font-size="18">developer · curious human · bug whisperer</text>
+  <path d="M82 273h34l10 10h45" stroke="url(#glow)" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="177" cy="283" r="3" fill="#5EEAD4"/>
+  <text x="188" y="288" fill="#94A3B8" font-family="monospace" font-size="13">status: learning, building, occasionally confused</text>
+</svg>
